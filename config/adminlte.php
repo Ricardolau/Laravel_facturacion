@@ -230,9 +230,8 @@ return [
             'topnav' => true,
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text' => 'Personas',
+            'route'  => 'personas.index',
         ],
         [
             'text'        => 'pages',
